@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
+<!--Nome da navegação-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digital Store</title>
 </head>
+<!--etapa menus-->
 <body>
+    <header>
+        <div class="logo">Digital Store</div>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">Produtos</a>
+          <a href="#">Categorias</a>
+          <a href="#">Meus Pedidos</a>
+        </nav>
+
+    <!--etapa de pesquisa-->
+        <div class="search">
+          <input type="text" placeholder="Pesquisar produto...">
+          <button>🔍</button>
+
+    <!--etapa de cadastrar-->
+          <div class="auth">
+            <a href="#">Cadastre-se</a>
+            <button>Entrar</button>
+          </div>
+          <div class="cart">🛒</div>
+        </header>
+
+    <!--etapa principal da tela-->
+    <main>
+        <section class="highlight">
+          <div class="promo">
+            <h4>Melhores ofertas personalizadas</h4>
+            <h1>Queima de estoque Nike 🔥</h1>
+            <p>Confira ofertas incríveis antes que acabem!</p>
+            <button class="btn-offer">Ver Ofertas</button>
+          </div>
+          <div class="product-image">
+            <img src="img/nike.png" alt="Tênis Nike">
+          </div>
+        </section>
     
+        <section class="featured">
+          <h2>Coleções em destaque</h2>
+          <div class="cards">
+            <div class="card">
+              <p>30% OFF</p>
+              <img src="img/supreme.png" alt="Supreme">
+              <button>Comprar</button>
+            </div>
+            <div class="card">
+              <p>30% OFF</p>
+              <img src="img/adidas.png" alt="Adidas">
+              <button>Comprar</button>
+            </div>
+            <div class="card">
+              <p>30% OFF</p>
+              <img src="img/headphone.png" alt="Headphone">
+              <button>Comprar</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    
+    <script src="js/script.js"></script>
+
 </body>
 </html>
